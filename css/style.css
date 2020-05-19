@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Balsamiq Sans", cursive;
+  line-height: 1.5; }
+
+.container {
+  width: 55vw;
+  background-color: black;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-rows: repeat(3, 10rem);
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 3rem; }
+
+.sidebar {
+  background-color: green;
+  color: white; }
+
+.footer {
+  background-color: purple;
+  color: white; }
+
+.header {
+  background-color: red;
+  color: white; }
+
+.main-section {
+  background-color: blue;
+  color: white; }
