@@ -1,7 +1,7 @@
 {
-  "name": "print-shop",
+  "name": "flex-grid",
   "version": "1.0.0",
-  "description": "storefront for fictional printshop",
+  "description": "cssgrid practice",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
